@@ -1,0 +1,499 @@
+/*公用*/
+body,div,ul,li,a,h2,h3,img,input,select,option,hr,ol{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-size: 15px;
+	font-family: 宋体;
+	color: black;
+	background-color: #ECF0F1;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+a:hover{
+	text-decoration: none;
+	color: red;
+}
+/*清除浮动*/
+.clear{
+	clear: both;
+}
+/*头部*/
+#header{
+	background-color: #0B5EA5;
+}
+#head{
+		width: 1400px;
+		margin: 0 auto;
+}
+#headleft{
+	float: left;
+}
+#headright{
+	float: right;
+}
+#headfont li{
+	display: inline;
+}
+#headfont{
+	float: left;
+	list-style-type: none;
+}
+#headfont{
+	color: white;
+}
+#headfont:hover{
+	color: red;
+}
+.huohu_logo{
+	width: 40px;
+	height: 40px;
+}
+.zhuye{
+	padding-left: 2px;
+	font-size: 24px;
+	font-weight: bold;
+	color: white;
+	cursor: default;
+}
+/*内容*/
+#content{
+	margin: 0 auto;
+	background-color: white;
+	width: 1400px;/*内容宽度*/
+	padding-bottom: 30px;
+}
+.tit li{
+	display: inline;
+}
+#title{
+	margin-top: 30px;
+	text-align: center;
+	background-color: #ECF0F1;
+	word-spacing: 30px;
+	padding-bottom: 20px
+}
+#seek_find{
+	background-color: #ECF0F1;
+	padding-bottom: 45px;
+}
+#baidu_logo,#seekbox,#seekpic,#add{
+	float: left;
+}
+#baidu_logo{
+	margin-left: 150px;
+}
+.baidu{
+	width: 160px;
+	height: 56px;
+}
+#seekbox{
+	margin-left: 40px;
+}
+.seek{
+	width: 600px;
+	height: 50px;
+	outline: none;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #E54724;
+}
+.seeksub{
+	width: 54px;
+	height: 53px;
+}
+#add{
+	margin-left: 45px;
+}
+.small{
+	color: #E54724;
+}
+#adve{
+	border-color: red;
+	background-color: #ECF0F1;
+	padding-bottom: 30px;
+}
+#one{
+	float: left;
+}
+#two{
+	float: right;
+}
+.adver{
+	width: 670px;
+	height: 65px;
+}
+#oneline{
+	width: 1400px;/*内容宽度*/
+	background-color: white;
+	font-size: 20px;
+	letter-spacing: 20px;
+}
+.choice{
+	list-style-type: none;
+	float: left;
+}
+.choice li{
+	display: inline;
+}
+#link{
+	width: 1000px;
+	margin: 0 50px;
+	float: left;
+	line-height: 50px;
+}
+/*第一行链接和之后的链接*/
+#onelink,#backlink{
+	width: 888px;
+	height: 40px;
+}
+#backlink{
+	margin-bottom: 4px;
+}
+.choice a{
+	padding-left: 10px;
+}
+.cut{
+	letter-spacing: 10px;
+}
+.cut0,.special{
+	letter-spacing: 0px;
+}
+#oneright{
+	width: 340px;
+	float: left;
+	margin-left: -50px;
+	letter-spacing: 0;
+	line-height: 32px;
+}
+#spe{
+	width: 135px;
+	float: left;
+}
+.special h2{
+	display: inline;
+}
+.fontsty
+{
+	margin-top: 10px;
+	margin-left: 3px;
+	width: 200px;
+	float: left;
+}
+#funny{
+	float: left;
+	margin-top: 18px;
+}
+#point{
+	margin-left: 20px;
+	margin-top: 16px;
+}
+#point ul
+{
+	list-style-type: square;
+	color: #E54724;
+}
+#point ul li a
+{
+	color: black;
+	font-size: 17px;
+}
+#point ul li a:hover,.dot
+{
+	color: #E54724;
+}
+.list
+{
+	float: left;
+	list-style-type: none;
+}
+.list li{
+	display: inline;
+}
+.dot{
+	float: left;
+	font-size: 27px;
+	margin-left: -20px;
+	margin-top: -10px;
+}
+#twoline{
+	font-size: 20px;
+}
+#twoleft{
+	width: 1000px;
+	float: left;
+}
+#nav
+{
+	text-align: center;
+	background-color: #ECF0F1;
+}
+.type
+{
+	list-style-type: none;
+	float: left;
+}
+.type li{
+	display: inline;
+	padding-left: 50px;
+}
+#bulaipic{
+	margin-left: 15px;
+	margin-top: 18px;
+	width: 475px;
+}
+.bulai
+{
+	width: 475px;
+	height: 270px;
+}
+#bulaier{
+	width: 475px;
+	text-align: center;
+	margin-top: 5px;
+}
+.onepic,.twopic
+{
+	width: 210px;
+	height: 112px;
+}
+#pic{
+	margin-top: 20px;
+	margin-left: 15px;
+	width: 475px;
+}
+#onepho{
+	float: left;
+}
+#twopho{
+	float: right;
+}
+.onefont,.twofont{
+	font-size: 18px;
+}
+#makelong{
+	margin-left: 15px;
+	margin-top: 20px;
+	width: 475px;
+	background-color: #ECF0F1;
+}
+.make{
+	width: 209px;
+	height:116px;
+	vertical-align: top;
+}
+.mkl{
+	font-size: 20px;
+	font-weight: bold;
+}
+#ima{
+	float: left;
+}
+#wo{
+	width: 265px;
+	float: left;
+}
+#sour{
+	margin-top: 24px;
+	text-indent: 2em;
+	line-height: -14px;
+}
+#page{
+	margin-top: 20px;
+	width: 475px;
+	margin-left: 15px;
+}
+.laiyuan
+{
+	margin-top: 10px;
+	text-indent: 2em;
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+#leftleft
+{
+	margin-left: 30px;
+	width: 477px;
+	float: left;
+}
+#leftright{
+	margin-top: 15px;
+	float: left;
+	margin-left: 70px;
+	width: 420px;
+}
+#niboer{
+	list-style-type: square;
+	line-height: 35px;
+}
+#news
+{
+	margin-top: -10px;
+}
+#niboer li a{
+	font-size: 18px;
+}
+#meiguo{
+	background-color: #ECF0F1;
+	margin-top: 22px;
+}
+.mgimg{
+	float: left;
+}
+.meiguoimg{
+	width: 208px;
+	height: 115px;
+}
+.mgfont{
+	width: 205px;
+	float: left;
+}
+.zg{
+	margin-top: 15px;
+	text-indent: 2em;
+}
+#rpage{
+	margin-top: 19px;
+	height: 240px;
+}
+#rpage p{
+	height: 240px;
+}
+#tworight{
+	float: left;
+	margin-left: 5px;
+	width: 393px;
+	padding-top: 300px;
+	padding-bottom: 353px;
+}
+#rank{
+	background-color: white;
+}
+#rankhead{
+	background-color: #F6F8F7;
+	padding: 13px 10px;
+}
+.book li{
+	display: inline;
+	font-weight: bold;
+}
+#human{
+	background-color: white;
+	margin-left: 22px;
+	line-height: 33px;
+	margin-bottom: 15px;
+	font-size: 18px;
+}
+.humanjs{
+	list-style-type: none;
+}
+.fontcol,.fontcolr{
+	background-color: #E54724;
+	font-size: 22px;
+}
+.fontcolr{
+	background-color: #41444b;
+}
+#threeline{
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+#threehead{
+	background-color: #ECF0F1;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#press,#pre,#leftpho,#rightpho{
+	float: left;
+}
+#photo{
+	float: right;
+}
+.press li{
+	display: inline;
+}
+.hb,.sanzhipho{
+	width: 500px;
+	height: 300px;
+}
+#hbfont,.dqfont{
+	position: relative;
+	background-color: rgba(0,0,0,.3);
+	top: -18px;
+	font-size: 16px;
+}
+.dong{
+	height: 145px;
+}
+#topone,#toptwo,#topthree,#boone,#botwo,#bothree{
+	float: left;
+	padding-left: 50px;
+}
+/*第四行*/
+#fourhead{
+	word-spacing: 20px;
+	background-color: #ECF0F1;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 15px 0 15px 15px;
+}
+#picleft,.only,#picright{
+	float: left;
+}
+#picright{
+	margin-right: 80px;
+}
+.only{
+	margin-left: 40px;
+	padding-top: 10px;
+}
+.onlypic{
+	width: 220px;
+}
+#sanzhifont{
+	background-color: rgba(0,0,0,.3);
+	position: relative;
+	top: -18px;
+}
+/*第六行*/
+#sixline{
+	padding-top: 20px;
+}
+.huolitou{
+	width: 100px;
+	height:110px;
+}
+.hladd{
+	list-style-type: none;
+	line-height: 30px;
+}
+.hlfont,.hlt,.huli{
+	float: left;
+}
+.hlfont{
+	margin-top: 20px;
+}
+.huli{
+	margin-top: 25px;
+	margin-right: 60px;
+	padding-left: 50px;
+}
+#end{
+	background-color: #0B5EA5;
+	margin-bottom: 30px;
+}
+#endauto{
+	width: 1400px;
+	margin: 0 auto;
+}
+#firefox{
+	float: left;
+	height: 100px;
+}
+#endfont,#copy,#num,#number{
+	text-align: center;
+	line-height: 28px;
+}
